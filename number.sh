@@ -1,4 +1,4 @@
-#1/bin/bash
+#!/bin/bash
 
 echo "Enter First Choice :"
 read a
@@ -7,7 +7,7 @@ read b
 echo "Enter Final Choice :"
 read c
 
-if [ $a -gt $b ] && [ $a -gt $c];
+if [ $a -gt $b ] && [ $a -gt $c ];
 then
 echo "The Greatest Number is : $a"
 
@@ -24,5 +24,18 @@ then
 echo "The Greatest Number is Same"
 else
 echo "Please enter valid Input"
+
+fi
+
+echo "Enter your name before leave :"
+read h
+
+if [ h - ]
+then
+
+echo "Please Enter Name only"
+else
+
+echo "Your Name is :$h"
 
 fi
